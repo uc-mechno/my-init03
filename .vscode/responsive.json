@@ -1,0 +1,25 @@
+"sort-order": [
+  ["$variable", "$import", "$extend"],
+  [
+    /* コアのプロパティ - どのデバイスサイズでも適用 */
+    "display", "position", "float", "width", "height", "margin", "padding",
+    "border", "background", "color", "font-family", "font-size",
+
+    /* デバイス別のサイズ設定 */
+    "min-width", "max-width", "min-height", "max-height",
+
+    /* モバイル向けスタイル特有 */
+    "touch-action", "user-select", "appearance", "-webkit-tap-highlight-color",
+
+    /* フレックス・グリッド（モダンレイアウト） */
+    "flex", "flex-direction", "flex-wrap", "align-items", "justify-content",
+    "grid", "grid-template-columns", "grid-template-rows",
+
+    /* その他の視覚的表現 */
+    "opacity", "box-shadow", "text-shadow", "filter",
+
+    /* アニメーション・トランジション */
+    "transition", "transform", "animation"
+  ],
+  ["$include"]
+]

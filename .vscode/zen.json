@@ -1,0 +1,23 @@
+"sort-order": [
+  ["$variable", "$import", "$extend"],
+  [
+    /* 位置関連 */
+    "position", "top", "right", "bottom", "left", "z-index",
+
+    /* ボックスモデル */
+    "display", "box-sizing", "width", "height", "margin", "padding", "border",
+
+    /* 視覚的な表現 */
+    "background", "color", "box-shadow", "opacity",
+
+    /* タイポグラフィ */
+    "font", "font-size", "line-height", "text-align", "text-decoration",
+
+    /* フレックスボックス */
+    "flex", "align-items", "justify-content", "flex-direction", "flex-wrap",
+
+    /* アニメーション */
+    "transform", "transition", "animation"
+  ],
+  ["$include"]
+]

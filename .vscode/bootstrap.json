@@ -1,0 +1,33 @@
+"sort-order": [
+  ["$variable", "$import", "$extend"],
+  [
+    /* 位置関連 */
+    "position", "top", "right", "bottom", "left", "z-index",
+
+    /* ボックスモデル */
+    "display", "float", "width", "height", "max-width", "max-height",
+    "min-width", "min-height", "padding", "padding-top", "padding-right",
+    "padding-bottom", "padding-left", "margin", "margin-top", "margin-right",
+    "margin-bottom", "margin-left", "overflow", "clip", "clear",
+
+    /* タイポグラフィ */
+    "font", "font-family", "font-size", "font-style", "font-weight",
+    "font-variant", "font-size-adjust", "font-stretch", "font-effect",
+    "font-emphasize", "font-emphasize-position", "font-emphasize-style",
+    "font-smooth", "line-height", "text-align", "text-align-last",
+    "vertical-align", "white-space", "text-decoration", "text-emphasis",
+    "text-emphasis-color", "text-emphasis-style", "text-emphasis-position",
+    "text-indent", "text-justify", "letter-spacing", "word-spacing",
+
+    /* 境界・背景 */
+    "border", "border-width", "border-style", "border-color", "border-radius",
+    "background", "background-color", "background-image", "background-repeat",
+    "background-attachment", "background-position", "background-size",
+
+    /* アニメーション */
+    "transition", "transition-delay", "transition-timing-function",
+    "transition-duration", "transition-property", "transform",
+    "transform-origin", "animation"
+  ],
+  ["$include"]
+]
