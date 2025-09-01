@@ -16,6 +16,7 @@ init01
 │   ├── responsive.json
 │   ├── settings.json
 │   ├── shikaku.json
+│   ├── smacss.json
 │   └── zen.json
 ├── .editorconfig
 ├── .prettierignore
