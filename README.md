@@ -18,9 +18,6 @@ init01
 │   ├── shikaku.json
 │   ├── smacss.json
 │   └── zen.json
-├── .editorconfig
-├── .prettierignore
-├── .prettierrc
 └── README.md
 ```
 
